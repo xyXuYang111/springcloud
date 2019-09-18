@@ -1,0 +1,19 @@
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: localhost:9002
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9000/eureka/
+
+server:
+  port: 9002
+
+spring:
+  application:
+    name: server-admin
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: demo

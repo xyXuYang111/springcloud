@@ -8,14 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="register" />
         <module name="zuul" />
+        <module name="admin" />
         <module name="springcloud" />
-        <module name="demo" />
         <module name="home" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="register" options="-parameters" />
       <module name="zuul" options="-parameters" />
