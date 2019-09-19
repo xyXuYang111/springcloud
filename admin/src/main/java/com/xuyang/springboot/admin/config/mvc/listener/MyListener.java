@@ -1,4 +1,4 @@
-package com.xuyang.springboot.admin.config.mvc;
+package com.xuyang.springboot.admin.config.mvc.listener;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;

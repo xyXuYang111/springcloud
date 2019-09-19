@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="home" />
         <module name="register" />
         <module name="zuul" />
-        <module name="springcloud" />
         <module name="admin" />
+        <module name="springcloud" />
+        <module name="home" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
