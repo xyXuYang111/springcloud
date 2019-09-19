@@ -108,4 +108,12 @@ public class MongoDBService<T> {
         }
         return mongoTemplate.count(query, clazz);
     }
+
+    /**
+     * 新增数据
+     * @param t
+     */
+    public void insert(T t){
+        mongoTemplate.insert(t);
+    }
 }
