@@ -1,7 +1,6 @@
-package com.xuyang.springboot.admin.redis;
+package com.xuyang.springboot.redis.service;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.ss.formula.functions.T;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
@@ -19,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Slf4j
 @Component
-public class RedisService {
+public class RedisService<T> {
 
     @Autowired
     private RedisTemplate redisTemplate;
@@ -60,7 +59,6 @@ public class RedisService {
      *
      * @param key
      */
-    @SuppressWarnings("unchecked")
     public void delete(String... key) {
         if (key != null && key.length > 0) {
             if (key.length == 1) {

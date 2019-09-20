@@ -1,4 +1,4 @@
-package com.xuyang.springboot.admin.config.redis;
+package com.xuyang.springboot.redis.config;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
