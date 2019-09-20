@@ -1,6 +1,5 @@
 package com.xuyang.springboot.admin.task;
 
-import com.xuyang.springboot.admin.model.MongoInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
