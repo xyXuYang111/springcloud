@@ -3,19 +3,27 @@ package com.xuyang.springboot.mongo.controller;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.xuyang.springboot.mongo.common.BaseController;
+import com.xuyang.springboot.mongo.model.Files;
+import com.xuyang.springboot.mongo.model.LoggInfo;
+import com.xuyang.springboot.mongo.service.MongoDBService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Auther: cypc
- * @Date: 2019/9/20 15:35
+ * @Auther: xuyang
+ * @Date: 2019/9/21 01:47
  * @Description:
  */
 @Slf4j
 @RestController
-public class MongoController extends BaseController {
+public class MongoLoggInfoController extends BaseController {
+
+    @Autowired
+    private MongoDBService mongoDBService;
 
     @HystrixCommand(
             fallbackMethod = "getErrorResult",
@@ -28,8 +36,10 @@ public class MongoController extends BaseController {
                     @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "2"), //若干10s一个窗口内失败三次, 则达到触发熔断的最少请求量
                     @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "30000") //断路30s后尝试执行, 默认为5s
             })
-    @RequestMapping(value = "mongoText", method = RequestMethod.POST)
-    public String mongoText(){
-        return "mongoDB测试";
+    @RequestMapping(value = "insertLoggInfoMongo", method = RequestMethod.POST)
+    public String insertFilesMongo(@RequestBody LoggInfo loggInfo){
+        log.debug("新增日志数据测试");
+        mongoDBService.insert(loggInfo);
+        return "添加成功";
     }
 }

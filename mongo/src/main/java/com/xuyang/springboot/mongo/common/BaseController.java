@@ -1,6 +1,8 @@
 package com.xuyang.springboot.mongo.common;
 
+import com.xuyang.springboot.mongo.service.MongoDBService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -25,7 +27,6 @@ public class BaseController{
         log.debug("前置处理");
     }
 
-    @RequestMapping(value = "getErrorResult", method = RequestMethod.POST)
     public String getErrorResult(){
         log.debug("Hystrix异常服务");
         return "请求失败";

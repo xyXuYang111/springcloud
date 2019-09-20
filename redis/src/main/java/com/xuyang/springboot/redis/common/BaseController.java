@@ -26,7 +26,6 @@ public class BaseController{
         log.debug("前置处理");
     }
 
-    @RequestMapping(value = "getErrorResult", method = RequestMethod.POST)
     public String getErrorResult(){
         log.debug("Hystrix异常服务");
         return "请求失败";

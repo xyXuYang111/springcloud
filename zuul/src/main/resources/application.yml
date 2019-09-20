@@ -20,3 +20,9 @@ zuul:
     demo:
       path: /admin/*
       serviceId: server-admin
+    mongo:
+      path: /mongo/*
+      serviceId: server-mongo
+    redis:
+      path: /redis/*
+      serviceId: server-redis

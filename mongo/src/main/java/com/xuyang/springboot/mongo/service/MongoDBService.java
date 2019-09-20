@@ -107,4 +107,8 @@ public class MongoDBService<T> {
         }
         return mongoTemplate.count(query, clazz);
     }
+
+    public void insert(T t){
+        mongoTemplate.insert(t);
+    }
 }

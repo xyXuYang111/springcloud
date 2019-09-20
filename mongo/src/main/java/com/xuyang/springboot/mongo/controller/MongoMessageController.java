@@ -1,26 +1,29 @@
-package com.xuyang.springboot.redis.controller;
+package com.xuyang.springboot.mongo.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
-import com.xuyang.springboot.redis.common.BaseController;
-import com.xuyang.springboot.redis.service.RedisService;
+import com.xuyang.springboot.mongo.common.BaseController;
+import com.xuyang.springboot.mongo.model.Email;
+import com.xuyang.springboot.mongo.model.Message;
+import com.xuyang.springboot.mongo.service.MongoDBService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Auther: cypc
- * @Date: 2019/9/20 15:15
- * @Description: redis服务对外提供服务
+ * @Auther: xuyang
+ * @Date: 2019/9/21 01:47
+ * @Description:
  */
 @Slf4j
 @RestController
-public class RedisController extends BaseController {
+public class MongoMessageController extends BaseController {
 
     @Autowired
-    private RedisService redisService;
+    private MongoDBService mongoDBService;
 
     @HystrixCommand(
             fallbackMethod = "getErrorResult",
@@ -33,11 +36,10 @@ public class RedisController extends BaseController {
                     @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold", value = "2"), //若干10s一个窗口内失败三次, 则达到触发熔断的最少请求量
                     @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds", value = "30000") //断路30s后尝试执行, 默认为5s
             })
-    @RequestMapping(value = "redisText", method = RequestMethod.POST)
-    public String redisText(){
-        log.debug("redis服务测试");
-        return "1111";
+    @RequestMapping(value = "insertFilesMongo", method = RequestMethod.POST)
+    public String insertFilesMongo(@RequestBody Message message){
+        log.debug("新增点滴数据测试");
+        mongoDBService.insert(message);
+        return "添加成功";
     }
-
-
 }
