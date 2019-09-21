@@ -111,4 +111,13 @@ public class MongoDBService<T> {
     public void insert(T t){
         mongoTemplate.insert(t);
     }
+
+    public void delete(Map<String, Object> map, Class<T> clazz){
+        Query query = new Query();
+        for (String keyLine : map.keySet()) {
+            //条件
+            query.addCriteria(Criteria.where(keyLine).is(map.get(keyLine)));
+        }
+        mongoTemplate.remove(query, clazz);
+    }
 }

@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1098f0-b4cc-45ba-aeee-5f8074d89d58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/MongoFileFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/impl/MongoFileFeignImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/model/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/model/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/model/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/model/LoggInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/util/ObjectUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mongoDB/MongodbConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongoDB/MongoDBService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/task/MyScheduling.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/task/MyScheduling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/common/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/common/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoMessageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/service/MongoDBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/service/MongoDBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/MysqlApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/src/test/java/com/xuyang/springboot/mysql/MysqlApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/common/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/common/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/controller/RedisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,108 +33,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/pom.xml">
+        <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/config/HystrixConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state relative-caret-position="199">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/MongoFileFeign.java">
+        <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/model/Files.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mongo/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/impl/MongoFileFeignImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/task/MyScheduling.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/ecache/EcacheConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/service/MongoDBService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/controller/RedisController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="-182">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -186,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/register/src/main/java/com/xuyang/springcloud/register/RegisterApplication.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/xuyang/springcloud/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/xuyang/springcloud/demo/controller/DemoController.java" />
         <option value="$PROJECT_DIR$/demo/src/main/resources/application.yml" />
@@ -218,18 +103,12 @@
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/model/Files.java" />
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/model/LoggInfo.java" />
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoController.java" />
-        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/common/BaseController.java" />
-        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java" />
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/model/Message.java" />
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/model/Email.java" />
-        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java" />
-        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoMessageController.java" />
-        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/common/BaseController.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/task/MyScheduling.java" />
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/service/MongoDBFileFeign.java" />
-        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/service/MongoDBService.java" />
         <option value="$PROJECT_DIR$/admin/pom.xml" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/impl/MongoFeignImpl.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/MongoFeign.java" />
@@ -237,6 +116,14 @@
         <option value="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/model/Files.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/impl/MongoFileFeignImpl.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/MongoFileFeign.java" />
+        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/service/MongoDBService.java" />
+        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/common/BaseController.java" />
+        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/util/ObjectUtil.java" />
+        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java" />
+        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java" />
+        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoMessageController.java" />
+        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java" />
+        <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/config/HystrixConfig.java" />
       </list>
     </option>
   </component>
@@ -251,10 +138,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1170" />
+    <option name="x" value="-9" />
+    <option name="y" value="2" />
+    <option name="width" value="1938" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -262,122 +149,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -385,8 +194,8 @@
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -395,8 +204,18 @@
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -405,8 +224,8 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -415,79 +234,58 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -498,7 +296,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/java/springCloud_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -583,6 +381,7 @@
       <workItem from="1568817824163" duration="3260000" />
       <workItem from="1568823363270" duration="1292000" />
       <workItem from="1568886064480" duration="4154000" />
+      <workItem from="1569059875121" duration="1471000" />
     </task>
     <task id="LOCAL-00001" summary="zuul网关集成">
       <created>1568739601988</created>
@@ -630,13 +429,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21099000" />
+    <option name="totallyTimeSpent" value="23967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27575108" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -686,33 +485,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="第三方功能集成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/ehcache/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/druid/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/annotation/MyBatisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mongoDB/MongodbConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -785,27 +557,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8164">
-          <caret line="388" column="5" selection-start-line="388" selection-start-column="5" selection-end-line="388" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1069#1099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/RedisListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/RedisService.java" />
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/RedisListener.java" />
     <entry file="file://$PROJECT_DIR$/admin/src/main/resources/log/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2310" />
@@ -855,25 +608,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/Email.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongoDB/MongoDBService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1447">
-          <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3315#3316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/Email.java" />
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongoDB/MongoDBService.java" />
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/AdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -923,34 +659,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/MongoInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/common/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/MongoInfo.java" />
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoController.java" />
     <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/model/LoggInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="687">
@@ -982,27 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoMessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1044,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/service/MongoDBService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -1075,26 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/impl/MongoFileFeignImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/impl/MongoFileFeignImpl.java" />
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/MongoFileFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1102,6 +765,90 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/config/MongodbConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/service/MongoDBService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="114" column="22" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="22" />
+          <folding>
+            <element signature="e#3239#3240#0" expanded="true" />
+            <element signature="e#3278#3279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="169" column="18" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
+          <folding>
+            <element signature="e#5431#5432#0" expanded="true" />
+            <element signature="e#5458#5459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/common/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/util/ObjectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/config/HystrixConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="26" />
         </state>
       </provider>
     </entry>
