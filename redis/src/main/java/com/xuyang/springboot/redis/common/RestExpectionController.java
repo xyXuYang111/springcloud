@@ -1,5 +1,7 @@
 package com.xuyang.springboot.redis.common;
 
+import com.xuyang.springboot.redis.repository.RedisServiceRepository;
+import com.xuyang.springboot.redis.util.DateUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -23,8 +25,12 @@ public class RestExpectionController {
      */
     @ResponseBody
     @ExceptionHandler(Exception.class)
-    public Object exceptionHandler(Exception exception) {
+    public void exceptionHandler(Exception exception) {
         log.error(exception.getMessage(), exception);
-        return "异常数据";
+        StringBuilder redisError = new StringBuilder();
+        redisError.append("REDIS_ERROR_").append(DateUtil.getCurrentDateYYYYMMDD());
+        String message = exception.getMessage();
+
+        RedisServiceRepository.leftPush(redisError.toString(), message);
     }
 }
