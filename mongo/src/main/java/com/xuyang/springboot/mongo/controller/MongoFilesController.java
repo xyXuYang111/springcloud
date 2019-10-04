@@ -43,7 +43,7 @@ public class MongoFilesController extends BaseController {
     @RequestMapping(value = "getFilesMongoList", method = RequestMethod.POST)
     public List<Files> getFilesMongoList(@RequestBody Files files) {
         log.debug("查询mongo的list");
-        Map<String, Object> map = files.getMap();
+        Map<String, Object> map = modelAttribute(files);
         List<Files> filesList = mongoDBService.objectIsList(map, Files.class, null);
         return filesList;
     }

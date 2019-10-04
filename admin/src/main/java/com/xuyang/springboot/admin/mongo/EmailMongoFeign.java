@@ -13,7 +13,7 @@ import java.util.List;
  * @Date: 2019/10/2 19:07
  * @Description:
  */
-@FeignClient(value = "server-mongo")
+@FeignClient(value = "mongo")
 public interface EmailMongoFeign {
 
     @RequestMapping(value = "getEmailMongoList", method = RequestMethod.POST)

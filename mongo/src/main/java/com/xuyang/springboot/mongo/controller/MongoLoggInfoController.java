@@ -43,7 +43,7 @@ public class MongoLoggInfoController extends BaseController {
     @RequestMapping(value = "getLoggInfoMongoList", method = RequestMethod.POST)
     public List<LoggInfo> getLoggInfoMongoList(@RequestBody LoggInfo loggInfo) {
         log.debug("查询mongo的list");
-        Map<String, Object> map = loggInfo.getMap();
+        Map<String, Object> map = modelAttribute(loggInfo);
         List<LoggInfo> loggInfoList = mongoDBService.objectIsList(map, LoggInfo.class, null);
         return loggInfoList;
     }

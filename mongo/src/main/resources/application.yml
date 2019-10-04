@@ -10,10 +10,8 @@ server:
   port: 9004
 
 spring:
-  main:
-    allow-bean-definition-overriding: true
   application:
-    name: server-mongo
+    name: mongo
   data:
     mongodb:
       host: 127.0.0.1

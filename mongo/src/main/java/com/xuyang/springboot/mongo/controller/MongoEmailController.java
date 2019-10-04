@@ -48,7 +48,7 @@ public class MongoEmailController extends BaseController {
     @RequestMapping(value = "getEmailMongoList", method = RequestMethod.POST)
     public List<Email> getEmailMongoList(@RequestBody Email email) {
         log.debug("查询mongo的list");
-        Map<String, Object> map = email.getMap();
+        Map<String, Object> map = modelAttribute(email);
         List<Email> emailList = mongoDBService.objectIsList(map, Email.class, null);
         return emailList;
     }

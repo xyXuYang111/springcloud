@@ -10,10 +10,8 @@ server:
   port: 9003
 
 spring:
-  main:
-    allow-bean-definition-overriding: true
   application:
-    name: server-redis
+    name: redis
 
 logging:
   config: classpath:log/logback-spring.xml

@@ -9,6 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableEurekaClient
 @EnableCaching
+@EnableHystrix
 @EnableFeignClients
 @SpringBootApplication
 public class RedisApplication {

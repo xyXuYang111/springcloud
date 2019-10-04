@@ -10,10 +10,10 @@ server:
   port: 9002
 
 spring:
-  application:
-    name: server-admin
   main:
     allow-bean-definition-overriding: true
+  application:
+    name: admin
   data:
     mongodb:
       host: 127.0.0.1
