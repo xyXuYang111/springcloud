@@ -12,6 +12,8 @@ server:
 spring:
   application:
     name: server-admin
+  main:
+    allow-bean-definition-overriding: true
   data:
     mongodb:
       host: 127.0.0.1

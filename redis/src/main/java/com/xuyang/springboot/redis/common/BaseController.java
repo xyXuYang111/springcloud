@@ -25,9 +25,4 @@ public class BaseController{
     public void init(Model model, HttpServletRequest req) throws Exception {
         log.debug("前置处理");
     }
-
-    public String getErrorResult(){
-        log.debug("Hystrix异常服务");
-        return "请求失败";
-    }
 }

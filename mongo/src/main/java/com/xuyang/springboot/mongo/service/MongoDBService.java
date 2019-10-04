@@ -34,11 +34,12 @@ public class MongoDBService<T> {
      */
     public <T> List<T> objectIsList(Map<String, Object> map, Class<T> clazz, String property1){
         Query query = new Query();
-        for (String key : map.keySet()) {
-            query.addCriteria(Criteria.where(key).is(map.get(key)));
+        if(map != null){
+            for (String key : map.keySet()) {
+                query.addCriteria(Criteria.where(key).is(map.get(key)));
+            }
         }
         if(property1 != null){
-            //排序
             query.with(new Sort(new Sort.Order(Sort.Direction.DESC, property1)));
         }
         return mongoTemplate.find(query, clazz);

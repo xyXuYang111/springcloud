@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 public class BaseController{
 
     @ModelAttribute
-    public void init(Model model, HttpServletRequest req) throws Exception {
+    public void init() throws Exception {
         log.debug("前置处理");
     }
 }

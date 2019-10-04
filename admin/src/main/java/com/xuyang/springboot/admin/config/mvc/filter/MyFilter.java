@@ -19,6 +19,7 @@ public class MyFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+        //请求记录过滤监听
         filterChain.doFilter(servletRequest, servletResponse);
     }
 

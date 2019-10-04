@@ -1,5 +1,7 @@
 package com.xuyang.springboot.redis.common;
 
+import com.xuyang.springboot.redis.repository.RedisServiceRepository;
+import com.xuyang.springboot.redis.util.DateUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -25,6 +27,6 @@ public class ExpectionController {
     @ExceptionHandler(Exception.class)
     public Object exceptionHandler(Exception exception) {
         log.error(exception.getMessage(), exception);
-        return "异常数据";
+        return "异常数据：" + exception.getMessage();
     }
 }

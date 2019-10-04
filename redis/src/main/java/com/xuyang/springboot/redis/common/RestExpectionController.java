@@ -25,12 +25,8 @@ public class RestExpectionController {
      */
     @ResponseBody
     @ExceptionHandler(Exception.class)
-    public void exceptionHandler(Exception exception) {
+    public String exceptionHandler(Exception exception) {
         log.error(exception.getMessage(), exception);
-        StringBuilder redisError = new StringBuilder();
-        redisError.append("REDIS_ERROR_").append(DateUtil.getCurrentDateYYYYMMDD());
-        String message = exception.getMessage();
-
-        RedisServiceRepository.leftPush(redisError.toString(), message);
+        return "异常数据：" + exception.getMessage();
     }
 }

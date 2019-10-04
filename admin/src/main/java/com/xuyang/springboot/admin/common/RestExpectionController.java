@@ -25,6 +25,6 @@ public class RestExpectionController {
     @ExceptionHandler(Exception.class)
     public Object exceptionHandler(Exception exception) {
         log.error(exception.getMessage(), exception);
-        return "异常数据";
+        return "异常数据：" + exception.getMessage();
     }
 }

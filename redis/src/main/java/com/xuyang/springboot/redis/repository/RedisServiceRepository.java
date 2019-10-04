@@ -1,11 +1,10 @@
 package com.xuyang.springboot.redis.repository;
 
-import com.xuyang.springboot.redis.model.RedisPage;
+import com.xuyang.springboot.redis.common.BaseModel;
 import com.xuyang.springboot.redis.service.RedisService;
 import com.xuyang.springboot.redis.util.DateUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -75,7 +74,7 @@ public class RedisServiceRepository {
      * @param key
      * @param jsonValue
      */
-    public static void leftPush(String key, String jsonValue){
+    public static void leftPush(String key, Object jsonValue){
         redisService.leftPush(key, jsonValue);
     }
 
@@ -199,17 +198,17 @@ public class RedisServiceRepository {
     /**
      * 分页带条件显示数据
      *
-     * @param redisPage
+     * @param redisModel
      * @return
      */
-    public static <T> List<T> getRedisPageList(RedisPage redisPage) {
+    public static <T> List<T> getRedisPageList(BaseModel redisModel) {
         //页数
-        String key = redisPage.getKey();
-        int pageIndex = Integer.valueOf(redisPage.getPageIndex());
-        int pageSize = Integer.valueOf(redisPage.getPageSize());
+        String key = redisModel.getKey();
+        int pageIndex = Integer.valueOf(redisModel.getPageIndex());
+        int pageSize = Integer.valueOf(redisModel.getPageSize());
         int start = (pageIndex -1)*pageSize;
         int end = start + pageSize;
-        Map map = redisPage.getMap();
+        Map map = redisModel.getMap();
 
         List<T> objectAllList = new ArrayList<>();
         long totalCount = 0;
@@ -234,8 +233,8 @@ public class RedisServiceRepository {
         }
 
         int skip = (start - 1) * pageSize;
-        redisPage.setBeginIndex(Long.valueOf(skip + 1));
-        redisPage.setTotalCount(totalCount);
+        redisModel.setBeginIndex(Long.valueOf(skip + 1));
+        redisModel.setTotalCount(totalCount);
         Long remainder = totalCount % pageSize;
         Long pageCount = 1L;
         if (remainder == 0) {
@@ -244,14 +243,12 @@ public class RedisServiceRepository {
             pageCount = totalCount / pageSize + 1;
         }
 
-        redisPage.setPageCount(pageCount);
+        redisModel.setPageCount(pageCount);
         if (pageCount.intValue() == start) {
-            redisPage.setEndIndex(skip + remainder);
+            redisModel.setEndIndex(skip + remainder);
         } else {
-            redisPage.setEndIndex(Long.valueOf(skip + pageSize));
+            redisModel.setEndIndex(Long.valueOf(skip + pageSize));
         }
-
-        redisPage.setList(objectAllList);
 
         return objectAllList;
     }
