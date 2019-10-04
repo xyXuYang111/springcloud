@@ -2,28 +2,105 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1098f0-b4cc-45ba-aeee-5f8074d89d58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/annotation/MyBatisDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/aop/MyAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/common/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/common/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/common/ExpectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/common/RestExpectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/druid/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/ecache/EcacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mvc/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mvc/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mvc/interceptors/MyInterceptors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mvc/listener/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mvc/listener/SessionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mybatis/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/controller/MongoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/dao/EmailDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/LoggInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/RedisModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/mongo/EmailMongoFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/mongo/FilesMongoFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/mongo/LoggInfoMongoFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/mongo/MessageMongoFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/redis/EmailRedisFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/redis/FilesRedisFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/redis/LoggInfoRedisFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/redis/MessageRedisFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/task/MyScheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/resources/ehcache/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/resources/log/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/resources/mybatis/mapper/emailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/AdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/EmailMongoFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/EmailMongoFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/FilesMongoFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/FilesMongoFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/LoggInfoMongoFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/LoggInfoMongoFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/MessageMongoFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/MessageMongoFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/EmailRedisFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/EmailRedisFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/FilesRedisFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/FilesRedisFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/LoggInfoRedisFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/LoggInfoRedisFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/MessageRedisFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/MessageRedisFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/MongoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/MongoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoFilesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/src/main/resources/log/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/src/main/resources/log/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/RedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/RedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/register/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/AdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/annotation/MyBatisDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/aop/MyAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/common/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/common/BaseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/common/ExpectionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/common/RestExpectionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/druid/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/ecache/EcacheConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mvc/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mvc/filter/MyFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mvc/interceptors/MyInterceptors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mvc/listener/MyListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mvc/listener/SessionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mybatis/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/controller/MongoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/dao/EmailDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/Email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/Files.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/LoggInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/RedisModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/EmailMongoFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/FilesMongoFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/LoggInfoMongoFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/MessageMongoFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/EmailRedisFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/FilesRedisFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/LoggInfoRedisFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/MessageRedisFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/task/MyScheduling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/ehcache/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/log/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/mybatis/mapper/emailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/test/java/com/xuyang/springboot/admin/AdminApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/src/main/java/com/xuyang/springboot/index/IndexApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/src/main/java/com/xuyang/springboot/index/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/src/test/java/com/xuyang/springboot/index/IndexApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/src/test/java/com/xuyang/springboot/admin/AdminApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,36 +126,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/mysql/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="560">
               <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mvc/WebConfig.java">
+        <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mvc/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-841">
+            <state relative-caret-position="336">
               <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="175" column="42" selection-start-line="175" selection-start-column="42" selection-end-line="175" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index/pom.xml">
+        <entry file="file://$PROJECT_DIR$/mysql/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1877" />
+            <state relative-caret-position="364">
+              <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -127,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/model/Message.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/common/RestExpectionController.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/common/ExpectionController.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/common/BaseModel.java" />
@@ -178,6 +247,7 @@
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoEmailController.java" />
         <option value="$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/controller/MongoLoggInfoController.java" />
         <option value="$PROJECT_DIR$/admin/pom.xml" />
+        <option value="$PROJECT_DIR$/index/pom.xml" />
       </list>
     </option>
   </component>
@@ -228,6 +298,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,12 +307,15 @@
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,7 +360,7 @@
   </component>
   <component name="RunManager" selected="Spring Boot.MongoApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="admin" />
+      <module name="mysql" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuyang.springboot.admin.AdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -354,7 +429,8 @@
       <workItem from="1570115039837" duration="2104000" />
       <workItem from="1570117471365" duration="5010000" />
       <workItem from="1570153141909" duration="4031000" />
-      <workItem from="1570159263215" duration="771000" />
+      <workItem from="1570159263215" duration="1015000" />
+      <workItem from="1570161753803" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="zuul网关集成">
       <created>1568739601988</created>
@@ -412,16 +488,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570153192991</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="第三方功能集成">
+      <created>1570160238636</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570160238636</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67845000" />
+    <option name="totallyTimeSpent" value="68675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="936" extended-state="1" />
+    <frame x="-8" y="-8" width="1552" height="936" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26372156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26706827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -510,13 +594,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="第三方功能集成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/common/ExpectionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/repository/MongoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -524,7 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/LoggInfo.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/LoggInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -534,7 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/Message.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
@@ -552,7 +629,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/Email.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/Email.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
@@ -563,14 +640,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/files/MongoFileFeignImpl.java" />
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mvc/interceptors/MyInterceptors.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mvc/interceptors/MyInterceptors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mvc/filter/MyFilter.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mvc/filter/MyFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
@@ -602,7 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/Files.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/Files.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="21" column="33" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="33" />
@@ -617,7 +694,7 @@
         <state relative-caret-position="-588" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/model/RedisModel.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/model/RedisModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
@@ -664,7 +741,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/controller/MongoController.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/controller/MongoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
@@ -685,7 +762,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/AdminApplication.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/AdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
@@ -724,7 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/EmailRedisFeign.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/redis/EmailRedisFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
@@ -734,7 +811,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/FilesRedisFeign.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/redis/FilesRedisFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
@@ -744,14 +821,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/LoggInfoRedisFeign.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/redis/LoggInfoRedisFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/redis/MessageRedisFeign.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/redis/MessageRedisFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
@@ -797,28 +874,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/EmailMongoFeign.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/mongo/EmailMongoFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/FilesMongoFeign.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/mongo/FilesMongoFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/LoggInfoMongoFeign.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/mongo/LoggInfoMongoFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/mongo/MessageMongoFeign.java">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/mongo/MessageMongoFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
@@ -846,10 +923,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
+        <state relative-caret-position="560">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/config/mvc/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -860,23 +951,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/xuyang/springboot/admin/config/mvc/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-841">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/index/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mysql/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="175" column="42" selection-start-line="175" selection-start-column="42" selection-end-line="175" selection-end-column="42" />
+        <state relative-caret-position="364">
+          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1877" />
       </provider>
     </entry>
   </component>
