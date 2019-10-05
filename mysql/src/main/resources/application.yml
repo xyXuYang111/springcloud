@@ -11,12 +11,7 @@ server:
 
 spring:
   application:
-    name: admin
-  data:
-    mongodb:
-      host: 127.0.0.1
-      port: 27017
-      database: demo
+    name: mysql
 
 logging:
   config: classpath:log/logback-spring.xml

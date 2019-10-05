@@ -44,7 +44,7 @@
 
   <!--配置别名-->
   <typeAliases>
-  	<package name="com.xuyang.springboot.admin.model"/>
+  	<package name="com.xuyang.springboot.mysql.model"/>
   </typeAliases>
   
     <plugins>

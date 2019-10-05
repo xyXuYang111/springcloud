@@ -17,9 +17,9 @@ spring:
 
 zuul:
   routes:
-    demo:
-      path: /admin/*
-      serviceId: admin
+    mysql:
+      path: /mysql/*
+      serviceId: mysql
     mongo:
       path: /mongo/*
       serviceId: mongo
