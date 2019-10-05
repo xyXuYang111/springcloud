@@ -8,11 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="redis" />
         <module name="zuul" />
+        <module name="index" />
         <module name="mongo" />
-        <module name="home" />
+        <module name="register" />
         <module name="mysql" />
         <module name="springcloud" />
-        <module name="register" />
+        <module name="home" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="index" options="-parameters" />
       <module name="mongo" options="-parameters" />
       <module name="mysql" options="-parameters" />
       <module name="redis" options="-parameters" />

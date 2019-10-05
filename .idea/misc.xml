@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/mongo/pom.xml" />
         <option value="$PROJECT_DIR$/mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/index/pom.xml" />
       </list>
     </option>
   </component>

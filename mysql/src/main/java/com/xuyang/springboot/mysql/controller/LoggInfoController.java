@@ -49,7 +49,7 @@ public class LoggInfoController {
         return "修改成功";
     }
 
-    @RequestMapping(value = "updateLoggInfo", method = RequestMethod.POST)
+    @RequestMapping(value = "deleteLoggInfo", method = RequestMethod.POST)
     public String deleteLoggInfo(@RequestBody LoggInfo loggInfo) throws Exception {
         log.debug("进行删除");
         loggInfoService.deleteLoggInfo(loggInfo);

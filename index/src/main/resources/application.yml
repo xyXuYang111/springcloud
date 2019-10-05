@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: index
+  freemarker:
+    check-template-location: true
+    template-loader-path: classpath:/templates/
+    cache: true
+    charset: UTF-8
+    content-type: text/html
+    suffix: .ftl
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: localhost:9005
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9000/eureka/
+
+server:
+  port: 9005
+
+logging:
+  config: classpath:log/logback-spring.xml
