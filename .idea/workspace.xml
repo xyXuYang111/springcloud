@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1098f0-b4cc-45ba-aeee-5f8074d89d58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/src/main/java/com/xuyang/springboot/index/IndexApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/src/main/resources/log/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/src/test/java/com/xuyang/springboot/index/IndexApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/config/HystrixConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/admin/common/ExpectionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/controller/LoggInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/controller/LoggInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,19 +31,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/config/HystrixConfig.java">
+        <entry file="file://$PROJECT_DIR$/index/src/main/java/com/xuyang/springboot/index/IndexApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/controller/LoggInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="616">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,50 +43,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index/src/main/java/com/xuyang/springboot/index/IndexApplication.java">
+        <entry file="file://$PROJECT_DIR$/register/src/main/java/com/xuyang/springcloud/register/RegisterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/MongoApplication.java">
+        <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="223">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/xuyang/springcloud/zuul/ZuulApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="280">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index/src/main/resources/log/logback-spring.xml">
+        <entry file="file://$PROJECT_DIR$/register/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1792">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="308">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mongo/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/common/BaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="49">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -196,7 +168,6 @@
         <option value="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/service/impl/LoggInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/service/impl/MessageServiceImpl.java" />
         <option value="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/controller/EmailController.java" />
-        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/config/DruidConfig.java" />
         <option value="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/service/impl/FilesServiceImpl.java" />
         <option value="$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/controller/FilesController.java" />
@@ -210,6 +181,7 @@
         <option value="$PROJECT_DIR$/index/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/index/src/main/resources/log/logback-spring.xml" />
         <option value="$PROJECT_DIR$/index/src/main/java/com/xuyang/springboot/index/IndexApplication.java" />
+        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -239,11 +211,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
-    <option name="height" value="1170" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,8 +223,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,49 +235,6 @@
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -337,6 +266,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mongo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -348,33 +287,89 @@
             </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.1.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.1.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.1.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,7 +385,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/java/crm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -429,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MysqlApplication">
+  <component name="RunManager" selected="Spring Boot.RedisApplication">
     <configuration name="IndexApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="index" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuyang.springboot.index.IndexApplication" />
@@ -513,6 +508,7 @@
       <workItem from="1570169393818" duration="11945000" />
       <workItem from="1570240825277" duration="5608000" />
       <workItem from="1570247260263" duration="1650000" />
+      <workItem from="1570369975541" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="zuul网关集成">
       <created>1568739601988</created>
@@ -602,13 +598,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93378000" />
+    <option name="totallyTimeSpent" value="96282000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="936" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -697,27 +693,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="第三方功能集成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysql_1/src/main/java/com/xuyang/springboot/admin/AdminApplication.java" />
-    <entry file="file://$PROJECT_DIR$/mysql_1/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/config/mvc/WebConfig.java" />
-    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/com/xuyang/springboot/mysql/config/mybatis/DataSourceConfig.java" />
-    <entry file="file://$PROJECT_DIR$/mysql/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2268">
-          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-          <folding>
-            <element signature="n#properties#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/src/main/resources/log/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/xuyang/springboot/redis/RedisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -727,32 +702,6 @@
             <element signature="e#649#650#0" expanded="true" />
             <element signature="e#723#724#0" expanded="true" />
             <element signature="e#764#765#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/src/main/java/com/xuyang/springcloud/register/RegisterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/xuyang/springcloud/zuul/ZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -906,20 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1107,14 +1042,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index/src/main/resources/rebel-remote.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/src/main/resources/rebel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index/src/main/java/com/xuyang/springboot/index/IndexApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="616">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/rebel.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/resources/rebel.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/src/main/java/com/xuyang/springboot/mongo/common/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/src/main/resources/rebel.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/xuyang/springcloud/zuul/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register/src/main/java/com/xuyang/springcloud/register/RegisterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>

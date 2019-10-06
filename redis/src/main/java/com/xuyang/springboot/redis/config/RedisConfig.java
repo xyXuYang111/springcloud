@@ -22,7 +22,7 @@ import redis.clients.jedis.JedisPoolConfig;
 @Data
 public class RedisConfig {
 
-    private String host = "127.0.0.1";
+    private String host = "192.168.133.131";
 
     private String password = "1234qwer";
 

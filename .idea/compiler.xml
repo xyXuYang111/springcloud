@@ -10,10 +10,10 @@
         <module name="zuul" />
         <module name="index" />
         <module name="mongo" />
-        <module name="register" />
+        <module name="home" />
         <module name="mysql" />
         <module name="springcloud" />
-        <module name="home" />
+        <module name="register" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
